@@ -4,7 +4,7 @@ function Login(){
 	var erro = "input-danger";
 	
 	if (usuario.val() == 'adm' && senha.val() == 'adm'){
-		var url = "PainelAdministrativo.html";
+		var url = "PainelAdministrativo.php";
 		$(window.document.location).attr('href',url);
 		LimparValidacao();
 		return true;
